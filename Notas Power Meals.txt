@@ -1,0 +1,6 @@
+Secciones:
+Quienes Somos (Texto-Fotos)
+Que ofrecemos (Galeria de Fotos de platillos)
+Menu (menus de todo el mes)
+Precios, dinamica de entrega
+Informacion de contacto
