@@ -3,7 +3,6 @@ import styles from "./page.module.css";
 import Services from "./Services/page";
 import AboutUs from "./AboutUs/page";
 import Contact from "./Contact/page";
-import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
       <AboutUs/>
       <Services/>
       <Contact/>
-      <Footer/>
     </>
   );
 }

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import  Navigation  from "./components/Navigation";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Power Meals",
-  description: "Come Bien, Vive Mejor",
+  description: "Come bien, vive mejor",
 };
 
 export default function RootLayout({
@@ -14,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="pt-16">
         <Navigation/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
