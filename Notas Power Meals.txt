@@ -1,5 +1,6 @@
 Secciones:
 Quienes Somos (Texto-Fotos)
+Beneficios
 Que ofrecemos (Galeria de Fotos de platillos)
 Menu (menus de todo el mes)
 Precios, dinamica de entrega

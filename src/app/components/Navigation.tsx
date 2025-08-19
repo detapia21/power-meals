@@ -19,10 +19,11 @@ export default function Navigation(){
 
                     {/* Desktop menu */}
                     <div className="hidden md:flex space-x-8">
+                        <Link href="#about" className="text-gray-700 hover:text-brand-green">Nosotros</Link>
                         <Link href="#benefits" className="text-gray-700 hover:text-brand-green">Beneficios</Link>
                         <Link href="#plans" className="text-gray-700 hover:text-brand-green">Planes</Link>
-                        <Link href="#about" className="text-gray-700 hover:text-brand-green">Nosotros</Link>
-                        <Link href="#contact" className="bg-brand-green text-white px-4 py-2 rounded-lg hover:bg-brand-dark transition">
+                        <Link href="#contact" className="text-gray-700 hover:text-brand-green">Contacto</Link>
+                        <Link href="#services" className="bg-brand-green text-white px-4 py-2 rounded-lg hover:bg-brand-dark transition">
                         Haz tu pedido
                         </Link>
                     </div>
@@ -40,9 +41,9 @@ export default function Navigation(){
                 {/* Mobile menu */}
                 {open && (
                     <div className="md:hidden bg-white shadow-md">
+                    <Link href="#about" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Nosotros</Link>
                     <Link href="#benefits" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Beneficios</Link>
                     <Link href="#plans" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Planes</Link>
-                    <Link href="#about" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Nosotros</Link>
                     <Link href="#contact" className="block px-4 py-2 bg-brand-green text-white rounded-lg m-2 text-center hover:bg-brand-dark">
                         Haz tu pedido
                     </Link>
