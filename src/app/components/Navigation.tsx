@@ -22,11 +22,12 @@ export default function Navigation(){
                         <Link href="#about" className="text-gray-700 hover:text-brand-green">Nosotros</Link>
                         <Link href="#benefits" className="text-gray-700 hover:text-brand-green">Beneficios</Link>
                         <Link href="#plans" className="text-gray-700 hover:text-brand-green">Planes</Link>
-                        <Link href="#contact" className="text-gray-700 hover:text-brand-green">Contacto</Link>
                         <Link href="#services" className="bg-brand-green text-white px-4 py-2 rounded-lg hover:bg-brand-dark transition">
                         Haz tu pedido
                         </Link>
                     </div>
+
+                    <Link href="#contact" className="text-gray-700 hover:text-brand-green">Contacto</Link>
 
                     {/* Mobile button */}
                     <button
