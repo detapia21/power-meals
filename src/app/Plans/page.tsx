@@ -1,7 +1,7 @@
 
 export default function Plans() {
 
-    return( <section id="plans" className="bg-gray-50 py-20">
+    return( <section id="plans" className="bg-white py-20">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl text-center md:text-4xl font-bold text-gray-900 mb-6">
           Plan Semanal

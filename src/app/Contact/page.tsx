@@ -5,7 +5,7 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
 export default function Contact(){
     return(
         <>
-        <section className="bg-white py-12" id='contact'>
+        <section className="bg-brand-light py-20" id='contact'>
             <div className="max-w-xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-6 text-gray-900">Contáctanos</h2>
                 <p className="text-gray-600 mb-8">
@@ -13,7 +13,7 @@ export default function Contact(){
                 </p>
                 <div className="flex justify-center gap-8">
                     <a
-                        href="https://wa.me/521XXXXXXXXXX"
+                        href="https://wa.me/+526651778000"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex flex-col items-center text-green-600 hover:text-green-700"
@@ -22,7 +22,7 @@ export default function Contact(){
                         <span className="mt-2 font-semibold">WhatsApp</span>
                     </a>
                     <a
-                        href="https://instagram.com/tuusuario"
+                        href="https://instagram.com/_powermeals"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex flex-col items-center text-pink-500 hover:text-pink-600"
@@ -31,7 +31,7 @@ export default function Contact(){
                         <span className="mt-2 font-semibold">Instagram</span>
                     </a>
                     <a
-                        href="https://facebook.com/tuusuario"
+                        href="https://facebook.com/powermeals"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex flex-col items-center text-blue-600 hover:text-blue-700"

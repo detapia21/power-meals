@@ -8,7 +8,7 @@ export default function Hero() {
         <div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
             <span className="text-brand-green">Power Meals</span> <br />
-                llegó para hacerete la vida más fácil.
+                llegó para hacerte la vida más fácil.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
                 Te ofrecemos comidas saludables, balanceadas y listas para disfrutar sin complicarte.
@@ -37,7 +37,7 @@ export default function Hero() {
 
         <div className="relative w-full h-80 md:h-96">
           <Image
-            src="/hero-mealprep.jpg"
+            src="/logo.jpg"
             alt="Meal Prep saludable"
             fill
             className="object-cover rounded-2xl shadow-lg"

@@ -11,7 +11,7 @@ export default function AboutUs(){
             {/* Imagen */}
             <div className="relative w-full h-80 md:h-[400px]">
             <Image
-                src="/about-mealprep.jpg"
+                src="/platillos.jpg"
                 alt="Equipo preparando comida saludable"
                 fill
                 className="object-cover rounded-2xl shadow-lg"

@@ -31,7 +31,7 @@ export default function PromotionSection() {
             {/* Imagen */}
             <div className="relative w-full h-80 md:h-[400px]">
             <Image
-                src="/about-mealprep.jpg"
+                src="/platillos2.jpg"
                 alt="Promoción en Duo Saludable"
                 fill
                 className="object-cover rounded-2xl shadow-lg"

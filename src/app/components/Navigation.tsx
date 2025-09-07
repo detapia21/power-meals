@@ -1,5 +1,6 @@
 'use client'
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -14,7 +15,14 @@ export default function Navigation(){
                     <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
                     <Link href="/" className="text-2xl font-bold text-brand-green">
-                        <span className="text-brand-dark">Power Meals</span>
+                        <Image
+                            src="/logo.jpg"
+                            alt="Meal Prep saludable"
+                            width={50}
+                            height={50}
+                            className="object-cover rounded-2xl shadow-lg"
+                            priority
+                        />
                     </Link>
 
                     {/* Desktop menu */}
@@ -22,13 +30,11 @@ export default function Navigation(){
                         <Link href="#about" className="text-gray-700 hover:text-brand-green">Nosotros</Link>
                         <Link href="#benefits" className="text-gray-700 hover:text-brand-green">Beneficios</Link>
                         <Link href="#plans" className="text-gray-700 hover:text-brand-green">Planes</Link>
+                        <Link href="#contact" className="text-gray-700 hover:text-brand-green">Contacto</Link>
                         <Link href="#services" className="bg-brand-green text-white px-4 py-2 rounded-lg hover:bg-brand-dark transition">
                         Haz tu pedido
                         </Link>
                     </div>
-
-                    <Link href="#contact" className="text-gray-700 hover:text-brand-green">Contacto</Link>
-
                     {/* Mobile button */}
                     <button
                         className="md:hidden text-gray-700"
@@ -45,7 +51,8 @@ export default function Navigation(){
                     <Link href="#about" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Nosotros</Link>
                     <Link href="#benefits" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Beneficios</Link>
                     <Link href="#plans" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Planes</Link>
-                    <Link href="#contact" className="block px-4 py-2 bg-brand-green text-white rounded-lg m-2 text-center hover:bg-brand-dark">
+                    <Link href="#contact" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contacto</Link>
+                    <Link href="#services" className="block px-4 py-2 bg-brand-green text-white rounded-lg m-2 text-center hover:bg-brand-dark">
                         Haz tu pedido
                     </Link>
                     </div>
