@@ -2,6 +2,6 @@ Secciones:
 Quienes Somos (Texto-Fotos)
 Beneficios
 Que ofrecemos (Galeria de Fotos de platillos)
-Menu (menus de todo el mes)
+Menu (menus de todo el mes): FALTA POR AGREGAR
 Precios, dinamica de entrega
 Informacion de contacto

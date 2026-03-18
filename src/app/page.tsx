@@ -6,7 +6,7 @@ import Contact from "./Contact/page";
 import Hero from "./Hero/page";
 import Benefits from "./Benefits/page";
 import Plans from "./Plans/page";
-import PromotionSection from "./PromotionSection/page";
+import Menu from "./Menu/page";
 
 export default function Home() {
   return (
@@ -15,8 +15,8 @@ export default function Home() {
       <AboutUs/>
       <Benefits/>
       <Plans/>
+      <Menu/>
       <Services/>
-      <PromotionSection/>
       <Contact/>  
     </>
   );

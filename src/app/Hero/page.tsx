@@ -35,12 +35,13 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative w-full h-80 md:h-96">
+        <div className="w-full">
           <Image
             src="/logo.jpg"
             alt="Meal Prep saludable"
-            fill
-            className="object-cover rounded-2xl shadow-lg"
+            width={600}
+            height={600}
+            className="w-full h-auto rounded-2xl shadow-lg"
             priority
           />
         </div>
